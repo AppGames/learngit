@@ -1,0 +1,16 @@
+$ git remote add origin git@github.com:michaelliao/learngit.git
+
+之后，想修改，要显示删除
+git remote rm origin
+然后再添加
+git remote add origin git@github.com:Liutos/foobar.git
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+可以多次使用，修改user.name 和 user.email
+
+这些信息存在 C:\Users\Administrator\.gitconfig里面
+
+而 添加的远程的仓库，在本地仓库里面的 .git/config里面
+
